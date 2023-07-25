@@ -1,0 +1,120 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:700,300);
+
+
+.frame {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 400px;
+  height: 400px;
+  margin-top: -200px;
+  margin-left: -200px;
+  border-radius: 2px;
+	box-shadow: 4px 8px 16px 0 rgba(0,0,0,0.1);
+  overflow: hidden;
+background: #FCFFFF;
+background: -moz-radial-gradient(center, #FCFFFF 0%, #FFD6ED 50%, #FF38A2 100%);
+background: -webkit-radial-gradient(center, #FCFFFF 0%, #FFD6ED 50%, #FF38A2 100%);
+background: radial-gradient(ellipse at center, #FCFFFF 0%, #FFD6ED 50%, #FF38A2 100%);
+	font-family: 'Open Sans', Helvetica, sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+
+.center {
+  position: absolute;
+  top: 50.8%;
+  left: 50.8%;
+  transform: translate(-50%,-50%);
+}
+
+.num{
+	position: relative;
+	top: 0px;
+	width: 200px;
+	top: 0px;
+
+	
+	.one-num{
+		position: absolute;
+		z-index: 1;
+		top: -1;
+		left: -10px;
+		height: 40px;
+		width: 20px;
+		background: #FF69B4;
+		border-radius: 4px;
+		transform: rotate(50deg);
+		box-shadow: 0 0 13px 0 rgba(0,0,0,0.2);
+	}
+	
+	.other-one-num{
+		position: relative;
+		z-index: 10;
+		top: 0;
+		left: 0px;
+		height: 100px;
+		width: 25px;
+		background: #FF69B4;
+		border-radius: 4px;
+		box-shadow: 0 0 13px 0 rgba(0,0,0,0.2);
+	}
+	
+	.zero-num{
+    position: absolute;
+    z-index: 8;
+	  top: 0;
+    left: 17px;
+    box-sizing: border-box;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: 25px solid #FF69B4;
+    box-shadow: 0 0 13px 0 rgba(0,0,0,0.2);
+	}
+	
+	.other-zero-num{
+		top:-1.55rem;
+		z-index: 6;
+		left: 50px;
+		position: absolute;
+		box-sizing: border-box;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: 25px solid #FF69B4;
+    box-shadow: 0 0 13px 0 rgba(0,0,0,0.2);
+	}	
+}
+	
+.day{
+ position: relative;
+  z-index: 20;
+  display: inline-block;
+  font-size: 82px;
+  line-height: 60px;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-top: 73px;
+	margin-right: 10px;
+	margin-left: -50px;
+	vertical-align: middle;
+	letter-spacing: .02rem;
+
+}
+
+.challenge{
+	position: relative;
+  z-index: 20;
+	margin-top:2px;
+	margin-right: 20px;
+  display: inline-block; 
+  font-size: 25px;
+  line-height: 15px;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: .04em;
+	vertical-align: middle;
+	margin-left: -50px;
+}
